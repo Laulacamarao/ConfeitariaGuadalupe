@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background-color: #304050;
+    color: #333;
+}
+logo{
+    color: #304050
+}
+
+h1{
+        font-family: 'Georgia', serif;
+        color: #000000;
+} 
+
+h3 {
+    font-family: 'Georgia', serif;
+    color: #bec7be;
+}
+
+header {
+    background-color: #c6b18f;  
+    color: #304050;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #304050; 
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #001d34;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #120c0c;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #d4a5a5; 
+}
+
+
+.intro {
+    background-image: url('');
+    background-size: cover;
+    color: #304050;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.intro h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #bec7cb;
+}
+
+
+.produtos {
+    padding: 40px 20px;
+    background-color: #304050; 
+}
+
+.produtos h2 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #bec7be;  
+}
+
+.produtos-lista {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    text-align: center;
+    background-color: #f4b7ab;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(36, 0, 104, 0.1);
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.produto:hover {
+    transform: translateY(-10px);
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.produto h3 {
+    font-size: 1.5rem;
+    color: #001d34;
+    margin-bottom: 10px;
+}
+
+.produto p {
+    font-size: 1.2rem;
+    color: #001d34;
+}
+
+
+.sobre {
+    padding: 60px 20px;
+    background-color: #304050; 
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #bec7be;
+}
+
+.sobre p {
+    font-size: 1.3rem;
+    color: #bec7be;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+
+.contato {
+    padding: 40px 20px;
+    background-color: #304050;
+    color: #fff;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contato p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #304050;
+    color: #bec7be;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+}
